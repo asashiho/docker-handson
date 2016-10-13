@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    name: web-container
+  name: web-container
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        name: web-container
+    spec:
+      containers:
+      - image: gcr.io/<PROJECT ID>/docker-sample:v1.0
+        name: web-container
+        ports:
+        - containerPort: 80
