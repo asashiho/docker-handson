@@ -6,7 +6,7 @@ MAINTAINER asashiho@mail.asa.yokohama
 
 
 # Step 3: 環境変数の設定 --Set Environment Variables
-ENV NGINX_VERSION 1.11.5-1~jessie
+ENV NGINX_VERSION 1.11.6-1~jessie
 
 
 # Step 4: NGINXのインストール --Install NGINX
