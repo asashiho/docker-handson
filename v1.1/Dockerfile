@@ -1,12 +1,12 @@
 # Step 1: ベースイメージ取得 --Base Docker image
 FROM debian:jessie
 
-# Step 2: 作成者情報 --Maintainer profile
+# Step 2: 作成者情報 --Maintainer profile[DEPRECATION]
 MAINTAINER asashiho@mail.asa.yokohama
 
 
 # Step 3: 環境変数の設定 --Set Environment Variables
-ENV NGINX_VERSION 1.11.6-1~jessie
+ENV NGINX_VERSION 1.11.9-1~jessie
 
 
 # Step 4: NGINXのインストール --Install NGINX
